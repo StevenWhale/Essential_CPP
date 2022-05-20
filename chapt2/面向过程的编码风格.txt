@@ -4,7 +4,7 @@
 
 02  pass by refernece
     （1）对象本身并不会被复制一份，复制的是对象的地址
-    （2）如果希望对所传入的对象尽心修改，要将参数声明为reference
+    （2）如果希望对所传入的对象进行修改，要将参数声明为reference
     （3）声明为reference的形参加上const时，为的是程序效率的问题，而不是要在函数中修改将要
     传来的实参
     （4）传递内置类型用reference，传递class用pointer
